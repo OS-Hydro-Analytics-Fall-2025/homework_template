@@ -5,5 +5,5 @@
 		"dockerfile": "Dockerfile",
 	},
 	"workspaceFolder": "/workspaces",
-	"postCreateCommand": "git clone https://github.com/HAS-Tools-Fall-2024/CourseMaterials24.git"
+	"postCreateCommand": "git clone https://github.com/OS-Hydro-Analytics-Fall-2025/CourseMaterials25.git"
 }

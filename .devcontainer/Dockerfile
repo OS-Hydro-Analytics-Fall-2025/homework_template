@@ -1,4 +1,4 @@
-FROM arbennett/has-tools
+FROM YifanCheng/os-hydro
 
 # Copy environment.yml (if found) to a temp location so we update the environment. Also
 # copy "noop.txt" so the COPY instruction does not fail if no environment.yml exists.
