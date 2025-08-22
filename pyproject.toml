@@ -18,7 +18,6 @@ dependencies = [
     "pooch",
     "fiona",
     "pyogrio",
-    "sqlite",
     "geopandas",
     "rioxarray",
     "cartopy",
@@ -29,5 +28,4 @@ dependencies = [
     "pip",
     "mamba",
     "matplotlib",
-    "ulmo"
 ]
