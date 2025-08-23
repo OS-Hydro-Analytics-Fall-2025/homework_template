@@ -4,7 +4,7 @@
 	"features": {
 		"ghcr.io/va-h/devcontainers-features/uv:1": {}
 	},
-	"postCreateCommand": "/workspaces/${localWorkspaceFolderBasename}/postbuild.sh && git clone https://github.com/OS-Hydro-Analytics-Fall-2025/CourseMaterials25.git /workspaces/CourseMaterials25",
+	"postCreateCommand": "cp ${localWorkspaceFolderBasename}/pyproject.toml .. && ./${localWorkspaceFolderBasename}/postbuild.sh && git clone https://github.com/OS-Hydro-Analytics-Fall-2025/CourseMaterials25.git",
 	"customizations": {
 		"vscode": {
 			"extensions": [
