@@ -1,6 +1,10 @@
 #!/bin/bash
 set -e
 
+homework_folder=$(find . -maxdepth 1 -type d -name 'homework*' | head -n 1)
+
+cp $homework_folder/pyproject.toml .
+
 # Sync python packages
 uv sync
 
