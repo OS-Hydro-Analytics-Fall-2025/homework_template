@@ -28,4 +28,5 @@ dependencies = [
     "pip",
     "mamba",
     "matplotlib",
+    "scipy",
 ]
